@@ -16,11 +16,11 @@ variable "password" {
 variable "grafana_url" {
   description = "Grafana Server URL"
   type        = string
-  default     = "127.0.0.1:3000"
+  default     = "http://127.0.0.1:3000"
 }
 
 variable "grafana_token" {
   description = "Grafana Server Token"
   type        = string
-  default     = "admin;admin"
+  default     = "admin:admin"
 }
