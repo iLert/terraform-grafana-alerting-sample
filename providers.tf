@@ -2,7 +2,7 @@ terraform {
   required_providers {
     ilert = {
       source  = "iLert/ilert"
-      version = "~> 1.1.2"
+      version = "~> 1.1.3"
     }
 
     grafana = {
