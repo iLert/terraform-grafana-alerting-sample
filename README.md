@@ -1,6 +1,6 @@
 # Using iLert terraform provider with grafana
 
-This example related to [this blog post](...)
+This example is related to [our Terraform blog post](https://engineering.ilert.com/automating-monitoring-and-alerting-infrastructure-with-hashicorp-terraform/)
 
 ### Usage
 
