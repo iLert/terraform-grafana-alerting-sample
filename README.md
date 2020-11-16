@@ -25,7 +25,7 @@ terraform apply \
     -var 'ilert_user_email=example@example.com' \
     -var 'ilert_user_username=example' \
     -var 'ilert_user_mobile_code=DE' \
-    -var 'ilert_user_mobile_number=+4915231062570'
+    -var 'ilert_user_mobile_number=+491234567890'
 ```
 
 ### Links

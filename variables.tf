@@ -46,5 +46,5 @@ variable "ilert_user_mobile_code" {
 variable "ilert_user_mobile_number" {
   description = "The iLert user mobile to create"
   type        = string
-  default     = "+4915231062570"
+  default     = "+491234567890"
 }
