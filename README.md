@@ -5,6 +5,9 @@ This example related to [this blog post](...)
 ### Usage
 
 ```sh
+# set your Grafana URL and credentials
+export GRAFANA_URL=http://127.0.0.1:3000
+export GRAFANA_AUTH=admin:admin
 # set your iLert credentials via environment variables
 export ILERT_ORGANIZATION=...
 export ILERT_USERNAME=...
