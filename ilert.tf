@@ -1,15 +1,15 @@
 resource "ilert_user" "this" {
-  email      = "example@example.com"
-  username   = "example"
-  first_name = "example"
-  last_name  = "example"
+  email      = var.ilert_user_email
+  username   = var.ilert_user_username
+  first_name = "test"
+  last_name  = "test"
 
   subscribed_incident_update_states             = ["ACCEPTED", "ESCALATED", "RESOLVED"]
   subscribed_incident_update_notification_types = ["EMAIL"]
 
   mobile {
-    region_code = "DE"
-    number      = "+4915231062570"
+    region_code = var.ilert_user_mobile_code
+    number      = var.ilert_user_mobile_number
   }
 
   high_priority_notification_preference {

@@ -21,7 +21,11 @@ export ILERT_PASSWORD=...
 
 docker-compose up -d
 terraform init
-terraform apply
+terraform apply \
+    -var 'ilert_user_email=example@example.com' \
+    -var 'ilert_user_username=example' \
+    -var 'ilert_user_mobile_code=DE' \
+    -var 'ilert_user_mobile_number=+4915231062570'
 ```
 
 ### Links

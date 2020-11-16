@@ -24,3 +24,27 @@ variable "grafana_token" {
   type        = string
   default     = "admin:admin"
 }
+
+variable "ilert_user_email" {
+  description = "The iLert user email to create"
+  type        = string
+  default     = "example@example.com"
+}
+
+variable "ilert_user_username" {
+  description = "The iLert user name to create"
+  type        = string
+  default     = "example"
+}
+
+variable "ilert_user_mobile_code" {
+  description = "The iLert user mobile to create"
+  type        = string
+  default     = "DE"
+}
+
+variable "ilert_user_mobile_number" {
+  description = "The iLert user mobile to create"
+  type        = string
+  default     = "+4915231062570"
+}
